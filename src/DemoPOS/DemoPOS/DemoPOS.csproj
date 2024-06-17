@@ -4,6 +4,12 @@
         <TargetFramework>net8.0-windows</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>DemoPOS</Title>
+        <Authors>Demolite</Authors>
+        <Description>Lightweight and easy to use fluent-style usb thermal printer wrapper based on ESCPOS and RawPrint</Description>
+        <PackageLicenseUrl>https://github.com/d3molite/DemoPOS/blob/main/LICENSE.md</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/d3molite/DemoPOS</RepositoryUrl>
+        <PackageTags>esc, escpos, epson, printer, rawprint, fluent</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
