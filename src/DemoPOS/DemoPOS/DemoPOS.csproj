@@ -7,14 +7,18 @@
         <Title>DemoPOS</Title>
         <Authors>Demolite</Authors>
         <Description>Lightweight and easy to use fluent-style usb thermal printer wrapper based on ESCPOS and RawPrint</Description>
-        <PackageLicenseUrl>https://github.com/d3molite/DemoPOS/blob/main/LICENSE.md</PackageLicenseUrl>
+        <Lice>https://github.com/d3molite/DemoPOS/blob/main/LICENSE.md</Lice>
         <RepositoryUrl>https://github.com/d3molite/DemoPOS</RepositoryUrl>
         <PackageTags>esc, escpos, epson, printer, rawprint, fluent</PackageTags>
+        <Version>0.0.1</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="ESCPOS" Version="1.2.4" />
-      <PackageReference Include="RawPrint" Version="0.5.0" />
+        <None Include="..\..\..\README.md" Pack="true" PackagePath="\"/>
+        <PackageReference Include="ESCPOS" Version="1.2.4"/>
+        <PackageReference Include="RawPrint" Version="0.5.0"/>
     </ItemGroup>
 
 </Project>
