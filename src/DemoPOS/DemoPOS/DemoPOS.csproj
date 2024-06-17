@@ -19,7 +19,7 @@
     <ItemGroup>
         <None Include="..\..\..\README.md" Pack="true" PackagePath="\"/>
         <PackageReference Include="ESCPOS" Version="1.2.4"/>
-        <PackageReference Include="RawPrint" Version="0.5.0"/>
+        <PackageReference Include="RawPrint.NetStd" Version="1.0.0" />
     </ItemGroup>
 
 </Project>

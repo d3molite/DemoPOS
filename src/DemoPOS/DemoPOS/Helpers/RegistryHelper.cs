@@ -1,9 +1,10 @@
-﻿using Microsoft.Win32;
+﻿using System;
+using Microsoft.Win32;
 
 namespace DemoPOS.Helpers;
 
 public static class RegistryHelper
 {
-	public static IEnumerable<string> GetInstalledPrinterNames() 
+	public static string[] GetInstalledPrinterNames() 
 		=> Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Control\Print\Printers", false)!.GetSubKeyNames();
 }

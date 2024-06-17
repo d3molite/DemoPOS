@@ -1,7 +1,7 @@
 ﻿using DemoPOS.Utilities;
 using ESCPOS;
 using ESCPOS.Utils;
-using RawPrint;
+using RawPrint.NetStd;
 using static ESCPOS.Commands;
 
 namespace DemoPOS.Document;
