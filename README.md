@@ -36,7 +36,7 @@ manager.Print();
 
 or use the PrintAndContinue command, to keep the buffer (for repetitive printing of the same receipt, for example)
 ```csharp
-manager.Continue();
+manager.PrintAndContinue();
 ```
 
 If you have any issues with this package, or would like more features (commands) added to the DocumentManager, feel free to open a feature or a pull request on this repository!
