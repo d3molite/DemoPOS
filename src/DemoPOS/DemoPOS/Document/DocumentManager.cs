@@ -1,4 +1,4 @@
-﻿using DemoPOS.Utilities;
+using DemoPOS.Utilities;
 using ESCPOS;
 using ESCPOS.Utils;
 using RawPrint.NetStd;
@@ -37,6 +37,7 @@ public class DocumentManager
 	public DocumentManager AddLine(string lineText, 
 		Justification justification = Justification.Left)
 	{
+		Append(SelectJustification(justification));
 		Append(lineText.GetBytes());
 		Append(LF);
 		ResetJustification();
